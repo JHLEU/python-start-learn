@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+#venv/
+#.venv/
+#env/
+#.env
+
+# Dependencies (if installed locally)
+# Though often managed by tools like Poetry or Conda
+/node_modules
+
+# OS generated files
+.DS_Store # macOS files
+Thumbs.db # Windows files
+
+# Editor and IDE-specific directories and files
+.idea/             # JetBrains IDEs (PyCharm, IntelliJ)
+*.swp              # Vim swap files
+.vscode/           # VS Code settings (if not shared)
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Explicitly ignore the pythonlearn_env directory and all its contents
+pythonlearn_env/
